@@ -1,0 +1,42 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.maincontainer{
+    padding: 24px 16px;
+}
+.mainheading{
+    border-left:4px solid #ff4460 ;
+    padding: 8px  32px;
+    margin-top: 0;
+    margin-bottom: 42px;
+
+}
+.maincontainer h3{
+    font-weight: normal;
+}
+.scratchcontainer{
+    width: 300px;
+    height: 100px;
+    background-color:whitesmoke;
+    border-radius: 11px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.scratchcard{
+position: absolute;
+inset: 0;
+display: grid;
+place-items: center;
+font-size: 23px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight:light;
+letter-spacing: 2px;
+}
+
+canvas{
+    position: absolute;
+    cursor: grabbing;
+
+}
